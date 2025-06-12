@@ -2,3 +2,9 @@ node_modules/
 serviceAccountKey.json
 .env
 .DS_Store
+/.idea/caches/deviceStreaming.xml
+/.idea/.gitignore
+/.idea/chat-app-rebase-push-notification.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml

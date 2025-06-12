@@ -7,7 +7,7 @@ const app = express();
 app.use(bodyParser.json());
 
 // Replace with your own Firebase Admin SDK service account
-const serviceAccount = require("./serviceAccountKey.json");
+const serviceAccount = require("/etc/secrets/serviceAccountKey.json");
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
